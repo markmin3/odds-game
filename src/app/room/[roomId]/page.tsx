@@ -97,7 +97,7 @@ function SetMax({
       <div className="text-center">
         <h2 className="text-2xl font-bold mb-1">Set the Range</h2>
         <p className="text-gray-500 text-sm">
-          Player 2 has joined! Choose the maximum number both players will pick from (up to 9,223,372,036,854,775,807).
+          Player 2 has joined! Choose the max number (it's big but just choose a reasonable number like).
         </p>
       </div>
       <form onSubmit={handleSubmit} className="w-full flex flex-col gap-3">
